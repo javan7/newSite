@@ -396,3 +396,29 @@ div div h3::before {
 .second-block-violet {
   background-color: #8f00ff;
 }
+
+.third-blocks-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.third-blocks {
+  flex: 1 1 33.3%;
+  height: 240px;
+  padding: 60px 50px;
+}
+
+div div h4 {
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+}
+
+.third-blocks p {
+  margin-top: 26px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
