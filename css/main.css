@@ -308,7 +308,7 @@ body {
 
 .first-blocks-container {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 117px;
 }
 
 .first-blocks {
@@ -339,7 +339,6 @@ body {
 div div hr {
   margin-top: 58px;
   color: #fff;
-  z-index: 1;
   border-top: 2px solid;
 }
 
@@ -361,4 +360,34 @@ div div h3::before {
   height: 10px;
   background-color: #e9b730;
   border-radius: 50%;
+}
+
+.second-blocks-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.second-block-darkblue {
+  background-color: #22356f;
+}
+.second-block-blue {
+  background-color: #0052c1;
+}
+.second-blocks {
+  flex: 1 1 33.3%;
+  height: 376px;
+  padding: 35px 45px;
+}
+.second-block-strawberry {
+  background-color: #e9b730;
+}
+
+.second-block-aqua {
+  background-color: #e9b730;
+}
+.second-block-grey {
+  background-color: #e9b730;
+}
+.second-block-violet {
+  background-color: #e9b730;
 }
